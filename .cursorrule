@@ -1,0 +1,21 @@
+{
+  "onSave": [
+    {
+      "action": "gitCommit",
+      "options": {
+        "messageFormat": "[auto] {filename} updated by Cursor"
+      }
+    },
+    {
+      "action": "gitPush"
+    }
+  ],
+  "ignore": [
+    "node_modules/",
+    "*.log",
+    ".expo/",
+    "*.tmp",
+    "*.cache"
+  ],
+  "commitMessageFormat": "[auto] {filename} updated by Cursor"
+} 
